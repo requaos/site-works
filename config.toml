@@ -10,11 +10,14 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "ramonschiner"
+enableEmoji = true
+
+#Uncomment to enable Discus comments
+#disqusShortname = "ramonschiner"
 
 [params]
   author = "Raymond Skinner"
-  info = "Backend Developer /w API Services, ETL and ML Specialties"
+  info = ["Backend Developer", "API Services", "ETL and ML Specialties"]
   description = "Raymond Skiner's personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
@@ -29,14 +32,14 @@ disqusShortname = "ramonschiner"
   hideCopyright = false
   since = 2009
 
-  enableTwemoji = true
+  enableTwemoji = false
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  customCSS = ["css/custom.css"]
-  customSCSS = ["scss/custom.scss"]
-  customJS = ["js/custom.js"]
+  customCSS = []
+  customSCSS = []
+  customJS = []
 
 [taxonomies]
   category = "categories"
@@ -55,6 +58,11 @@ disqusShortname = "ramonschiner"
   icon = "fa fa-gitlab fa-2x"
   weight = 2
   url = "https://gitlab.com/reqpro/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin"
+  weight = 3
+  url = "https://www.linkedin.com/in/requaos/"
 
 # Menu links
 [[menu.main]]
